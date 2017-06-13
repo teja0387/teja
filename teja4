@@ -1,0 +1,7 @@
+tu = ['seel', 'r', 'te', 'basant', 'vahi']
+tu2 = ['s', 'ru', 't', 'b', 'va']
+tu3 = tu+tu2
+print tu3
+tu3.sort()
+print tu3
+ 
