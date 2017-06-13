@@ -1,0 +1,13 @@
+While loop
+
+teja@ubuntu:~$ #!/bin/bash
+teja@ubuntu:~$ counter=$1
+teja@ubuntu:~$ factorial=1
+teja@ubuntu:~$ while [ $counter -gt 0 ]
+> do
+>    factorial=$(( $factorial * $counter ))
+>    counter=$(( $counter - 1 ))
+> done
+bash: [: -gt: unary operator expected
+teja@ubuntu:~$ echo $factorial
+1
